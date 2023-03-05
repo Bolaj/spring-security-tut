@@ -6,7 +6,6 @@ import com.portfolio.springsecurityproject.model.UserModel;
 import com.portfolio.springsecurityproject.repository.UserRepository;
 import com.portfolio.springsecurityproject.repository.VerificationTokenRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +18,7 @@ public class UserServiceImpl implements UserService{
     private VerificationTokenRepository verificationTokenRepository;
     @Autowired
     private UserRepository userRepository;
-    @Autowired
+    @Autowired(required = false)
     private PasswordEncoder passwordEncoder;
 
     @Override

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6b743d1-ad21-46ac-b502-1a9635c704e6" name="Changes" comment="[4] Register User Endpoint Ready">
-      <change afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/entity/VerificationToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/event/RegistrationCompleteEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/listener/RegCompleteEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/repository/VerificationTokenRepository.java" afterDir="false" />
+    <list default="true" id="d6b743d1-ad21-46ac-b502-1a9635c704e6" name="Changes" comment="[5] Published Event &amp; Listener Service for User Email Verification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +46,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="SpringSecurityProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.portfolio.springsecurityproject.SpringSecurityProjectApplication" />
+      <module name="spring-security-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.portfolio.springsecurityproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringSecurityProjectApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,13 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678029813039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[5] Published Event &amp; Listener Service for User Email Verification">
+      <created>1678040570810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678040570810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[2] Created User Service Interface, User Repo Interface, and their implementation classes" />
     <MESSAGE value="[3]User Registration process. Added User Repository" />
     <MESSAGE value="[4] Register User Endpoint Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="[4] Register User Endpoint Ready" />
+    <MESSAGE value="[5] Published Event &amp; Listener Service for User Email Verification" />
+    <option name="LAST_COMMIT_MESSAGE" value="[5] Published Event &amp; Listener Service for User Email Verification" />
   </component>
 </project>
