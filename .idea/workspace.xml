@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6b743d1-ad21-46ac-b502-1a9635c704e6" name="Changes" comment="[5] Published Event &amp; Listener Service for User Email Verification">
+    <list default="true" id="d6b743d1-ad21-46ac-b502-1a9635c704e6" name="Changes" comment="[6] Add SecurityFilterChain for our endpoints">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/listener/RegCompleteEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/listener/RegCompleteEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/repository/VerificationTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/repository/VerificationTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-project/src/main/java/com/portfolio/springsecurityproject/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="SpringSecurityProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.portfolio.springsecurityproject.SpringSecurityProjectApplication" />
@@ -110,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678040570810</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[6] Add SecurityFilterChain for our endpoints">
+      <created>1678057334028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678057334028</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +128,7 @@
     <MESSAGE value="[3]User Registration process. Added User Repository" />
     <MESSAGE value="[4] Register User Endpoint Ready" />
     <MESSAGE value="[5] Published Event &amp; Listener Service for User Email Verification" />
-    <option name="LAST_COMMIT_MESSAGE" value="[5] Published Event &amp; Listener Service for User Email Verification" />
+    <MESSAGE value="[6] Add SecurityFilterChain for our endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="[6] Add SecurityFilterChain for our endpoints" />
   </component>
 </project>

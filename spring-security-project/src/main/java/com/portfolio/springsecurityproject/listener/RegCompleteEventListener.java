@@ -6,8 +6,10 @@ import com.portfolio.springsecurityproject.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
+import org.springframework.stereotype.Component;
 
 import java.util.UUID;
+@Component
 @Slf4j
 
 public class RegCompleteEventListener implements ApplicationListener<RegistrationCompleteEvent> {
@@ -24,7 +26,7 @@ public class RegCompleteEventListener implements ApplicationListener<Registratio
 
         userService.saveVerficationTokenForUser(token, user);
         //send mail to user
-        String url = event.getApplicationUrl() + "verifyRegistration?token="
+        String url = event.getApplicationUrl() + "/verifyRegistration?token="
                 + token;
 
         //sendVerificationEmail()
