@@ -18,7 +18,7 @@ public class WebSecurityConfig {
         httpSecurity
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/hello","/register","/verifyRegistration").permitAll()
+                .antMatchers("/hello","/register","/verifyRegistration","/resendVerificationToken").permitAll()
                 .anyRequest()
                 .authenticated();
         return httpSecurity.build();
